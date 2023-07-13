@@ -1,0 +1,180 @@
+/* Define the color scheme for screens with a minimum width of 576px */
+@media (min-width: 576px) {
+  body {
+
+    .clearfix,
+    .container-fluid,
+    .about {
+      color: rgb(2, 21, 2);
+    }
+
+  }
+
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+
+
+
+body {
+  font-size: large;
+  background-image: linear-gradient(to bottom, #e2e7e1, #515851);
+}
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  scroll-margin-top: 1em;
+  scroll-margin-bottom: 1em;
+}
+
+/* added background image to bring more life to the page 3.19.23 */
+.clearfix {
+  margin-top: 20px;
+  position: relative;
+  z-index: -10;
+  background-image: url(https://i.ibb.co/ncX7smH/simple-home-setup.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 1px 1px 2px rgb(248, 247, 247), 0 0 1em rgb(247, 247, 248), 0 0 0.2em rgb(247, 247, 248);
+  filter: brightness(75%);
+}
+
+.container-fluid,
+.about {
+  background-image: url(https://i.ibb.co/ncX7smH/simple-home-setup.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 1px 1px 2px rgb(248, 247, 247), 0 0 1em rgb(247, 247, 248), 0 0 0.2em rgb(247, 247, 248);
+  filter: brightness(75%);
+}
+
+.logo-big {
+  align-content: center;
+  display: inline-block;
+  position: relative;
+}
+
+.self,
+.goals,
+.contact {
+  background-color: rgba(93, 93, 84, 0.094);
+  margin-top: auto;
+
+}
+
+.bmaImgContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.images {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  padding: 15px;
+  border-radius: 50%;
+
+}
+
+
+.BMAimg {
+  margin-left: auto;
+  margin-right: auto;
+  height: 165px;
+  width: 165px;
+  padding: 5px;
+  text-align: justify;
+  justify-content: space-evenly;
+  border-radius: 50%;
+}
+
+.social {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  position: flex;
+  flex-direction: column;
+}
+
+.rowsocial a {
+  justify-content: space-evenly;
+  font-size: 1em;
+  display: inline-block;
+  color: white;
+  border-style: hidden;
+  border-color: black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em;
+  background-color: black;
+}
+
+.fa-youtube:hover {
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+.fa-twitter:hover {
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+.fa-facebook:hover {
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+.fa-instagram:hover {
+  animation: shake-animation 4.72s ease infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes shake-animation {
+  0% {
+    transform: translate(0, 0)
+  }
+
+  1.78571% {
+    transform: translate(5px, 0)
+  }
+
+  3.57143% {
+    transform: translate(0, 0)
+  }
+
+  5.35714% {
+    transform: translate(5px, 0)
+  }
+
+  7.14286% {
+    transform: translate(0, 0)
+  }
+
+  8.92857% {
+    transform: translate(5px, 0)
+  }
+
+  10.71429% {
+    transform: translate(0, 0)
+  }
+
+  100% {
+    transform: translate(0, 0)
+  }
+}
