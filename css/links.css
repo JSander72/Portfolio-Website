@@ -1,0 +1,64 @@
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}
+
+.navbar {
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  width: auto;
+  background-color: #33333334;
+  color: #fff;
+
+}
+
+.navbar-toggle {
+  display: block;
+  float: right;
+  padding: 10px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.line {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.navbar-menu {
+  display: none;
+  position: static;
+  top: 50px;
+  right: 0;
+  padding: 10px;
+  background-color: rgb(17, 16, 16);
+
+}
+
+.navbar-menu li {
+  margin-bottom: 10px;
+  color: #16161600;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.navbar-toggle:hover + .navbar-menu,
+.navbar-menu:hover {
+  display: block;
+
+}
