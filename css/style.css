@@ -20,7 +20,10 @@
 
 @media (min-width: 1400px) {}
 
-
+#yourBox {
+  position: sticky;
+  top: 0;
+}
 
 body {
   font-size: large;
@@ -35,6 +38,18 @@ section {
 }
 
 /* added background image to bring more life to the page 3.19.23 */
+.box {
+  display: none; /* hide initially */
+  height: 200px;
+  width: 200px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  padding: 10px;
+}
+.visible {
+  display: block; /* show when visible */
+}
+
 .clearfix {
   margin-top: 20px;
   position: relative;
