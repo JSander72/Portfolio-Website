@@ -1,24 +1,12 @@
-/* Define the color scheme for screens with a minimum width of 576px */
 @media (min-width: 576px) {
-  body {
-
-    .clearfix,
-    .container-fluid,
-    .about {
-      color: rgb(2, 21, 2);
-    }
-
+  .clearfix,
+  .container-fluid,
+  .about {
+    color: rgb(2, 21, 2);
   }
-
 }
 
-@media (min-width: 768px) {}
-
-@media (min-width: 992px) {}
-
-@media (min-width: 1200px) {}
-
-@media (min-width: 1400px) {}
+/* Add styles for other screen sizes as needed */
 
 #yourBox {
   position: sticky;
@@ -37,7 +25,7 @@ section {
   scroll-margin-bottom: 1em;
 }
 
-/* added background image to bring more life to the page 3.19.23 */
+/* Add background image to bring more life to the page 3.19.23 */
 .box {
   display: none; /* hide initially */
   height: 200px;
